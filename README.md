@@ -102,18 +102,18 @@ gulp-用自动化构建工具增强你的工作流程的工具。[官网](http:/
   var less = require('gulp-less')
   ```
 
- ### 常用插件：
-  - `gulp-connect` 创建本地服务器（推荐使用更强大的`browser-sync`包）[链接](https://www.npmjs.com/package/gulp-connect)   
-  - `gulp-minify-html` 压缩html文件 [链接](https://www.npmjs.com/package/gulp-minify-html)   
-  - `gulp-less` less编译输出css [链接](https://www.npmjs.com/package/gulp-less)   
-  - `gulp-cssnano` css压缩文件 [链接](https://www.npmjs.com/package/gulp-cssnano)    
-  - `gulp-minify-css` 同上，压缩css文件(不推荐使用) [链接](https://www.npmjs.com/package/gulp-minify-css)   
-  - `gulp-uglify` 最小化 js 文件 [链接](https://www.npmjs.com/package/gulp-uglify)   
-  - `gulp-imagemin` 最小化图像[链接](https://www.npmjs.com/package/gulp-imagemin)   
-  - `gulp-concat` 合并文件 [链接](https://www.npmjs.com/package/gulp-concat)    
-  - `gulp-rename` 重命名文件 [链接](https://www.npmjs.com/package/gulp-rename) 
+### 常用插件：
+  - [`gulp-connect`](https://www.npmjs.com/package/gulp-connect) 创建本地服务器（推荐使用更强大的`browser-sync`包）   
+  - [`gulp-minify-html`](https://www.npmjs.com/package/gulp-minify-html) 压缩html文件    
+  - [`gulp-less`](https://www.npmjs.com/package/gulp-less) less编译输出css    
+  - [`gulp-cssnano`](https://www.npmjs.com/package/gulp-cssnano) css压缩文件     
+  - [`gulp-minify-css`](https://www.npmjs.com/package/gulp-minify-css) 同上，压缩css文件(不推荐使用)    
+  - [`gulp-uglify`](https://www.npmjs.com/package/gulp-uglify) 最小化 js 文件    
+  - [`gulp-imagemin`](https://www.npmjs.com/package/gulp-imagemin) 最小化图像   
+  - [`gulp-concat`](https://www.npmjs.com/package/gulp-concat) 合并文件     
+  - [`gulp-rename`](https://www.npmjs.com/package/gulp-rename) 重命名文件  
 
- ### 浏览器同步工具browser-sync使用 
+### 浏览器同步工具browser-sync使用 
 
   1.安装browser-sync包
   ```bash
