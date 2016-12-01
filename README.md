@@ -2,20 +2,21 @@
 
 ## gulp说明
 
-* gulp-用自动化构建工具增强你的工作流程的工具。[官网](http://gulpjs.com/)[中文网](http://www.gulpjs.com.cn/)
+gulp-用自动化构建工具增强你的工作流程的工具。[官网](http://gulpjs.com/)  [中文网](http://www.gulpjs.com.cn/)
 
 ## 本款gulp工作流的使用
 
 ### 使用须知
 
-* 本工作流使用前需要放到根目录下，其默认获取以下内容进行操作：   
+#### 本工作流使用前需要放到根目录下，其默认获取以下内容进行操作：   
 - 根目录文件中的html文件   
 - 根目录css文件夹里面的css文件   
 - 根目录less文件夹里面的less文件   
 - 根目录js文件夹里面的js文件   
 - 根目录img文件夹里面的图片文件   
-* 操作完成后根目录下会自动生成一个dist文件夹，输出的文件在该文件夹里面。
-* 如需要操作其它文件，需要自行修改gulpfile.js文件中的文件获取路径。
+
+#### 操作完成后根目录下会自动生成一个dist文件夹，输出的文件在该文件夹里面。
+#### 如需要操作其它文件，需要自行修改gulpfile.js文件中的文件获取路径。
 
 ### 使用方法
 
@@ -101,7 +102,7 @@
   var less = require('gulp-less')
   ```
 
-  * 常用插件：
+ ### 常用插件：
   - `gulp-connect` 创建本地服务器（推荐使用更强大的`browser-sync`包）[链接](https://www.npmjs.com/package/gulp-connect)   
   - `gulp-minify-html` 压缩html文件 [链接](https://www.npmjs.com/package/gulp-minify-html)   
   - `gulp-less` less编译输出css [链接](https://www.npmjs.com/package/gulp-less)   
@@ -112,7 +113,7 @@
   - `gulp-concat` 合并文件 [链接](https://www.npmjs.com/package/gulp-concat)    
   - `gulp-rename` 重命名文件 [链接](https://www.npmjs.com/package/gulp-rename) 
 
-  * 浏览器同步工具browser-sync使用 
+ ### 浏览器同步工具browser-sync使用 
 
   1.安装browser-sync包
   ```bash
